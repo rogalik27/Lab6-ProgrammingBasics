@@ -38,11 +38,11 @@ int Tasks::task1main() {
     double max = findMax(arr, size);
     double sum = min + max;
 
-    ofstream outFile("result.txt");
+    ofstream outFile("task1result.txt");
     outFile << "Min: " << min << "\nMax: " << max << "\nSum: " << sum;
     outFile.close();
 
-    cout << "Results written to result.txt" << endl;
+    cout << "Results written to task1result.txt" << endl;
 
     delete[] arr;
     return 0;
